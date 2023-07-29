@@ -1,0 +1,126 @@
+@font-face {
+    font-family: navBarFont;
+    src: url("./fonts/Tektur-Bold.ttf");
+}
+
+@font-face {
+    font-family: TitleFont;
+    src: url("./fonts/PermanentMarker-Regular.ttf");
+}
+
+@font-face {
+    font-family: titleGlow;
+    src: url("./fonts/BebasNeue-Regular.ttf");
+}
+
+
+
+body {
+    margin: 0px;
+    background: linear-gradient(to right, #f46b45, #eea849);
+    position: relative;
+}
+
+body>div {
+    background: linear-gradient(to left, #ffefba, #ffffff);
+}
+
+header>p {
+    vertical-align: center;
+    font-family: navBarFont;
+    display: inline-block;
+    height: 50px;
+    width: 250px;
+    margin-top: 30px;
+    font-size: 32px;
+    background-color: black;
+    color: #222;
+    text-align: center;
+    border-radius: 3px;
+}
+
+header {
+    display: inline-block;
+    margin-left: 50px;
+    font-family: navBarFont;
+    position: relative;
+}
+
+#home_img {
+    display: inline-block;
+}
+
+#home_text>p, #home_text {
+    display: inline-block;
+    width: 300px;
+}
+
+#home_text {
+    background: linear-gradient(to left, #f46b45, #eea849);
+    border-radius: 10px;
+    text-align: center;
+    width: 600px;
+    height: calc(100vh - 152px);
+    vertical-align: top;
+    margin-top: 10px;
+}
+
+div>p {
+    margin-top: 20px;
+    font-family: navBarFont;
+    color: white;
+}
+
+div>h1 {
+    margin-top: 100px;
+    font-family: TitleFont;
+    background-color: #ffffff;
+    color: #f46b45;
+    border: 1px solid black;
+}
+
+#aboutImg {
+    height: calc(100vh - 122px);
+    width: fit-content;
+
+}
+
+ul {
+    display: inline-block;
+    margin: auto;
+    padding: 0px;
+    color: white;
+    margin: 0px;
+    margin-top: 50px;
+}
+
+#home {
+    background: linear-gradient(to right, #f46b45, #eea849);
+    height: calc(100vh - 120px);
+}
+
+nav {
+    display: inline-block;
+    position: absolute;
+    right: 100px;
+}
+
+li {
+    font-family: navBarFont;
+    list-style-type: none;
+    display: inline-block;
+    margin-left: 10px;
+    margin-right: 10px;
+    padding: 0px 10px 0px 10px;
+    background-color: #f46b45;
+    position: relative;
+    width: 75px;
+    text-align: center;
+    transition: width 2s;
+}
+
+li:hover {
+    background-color: #222;
+    width: 100px;
+    text-shadow: 0 0 12px rgb(245, 73, 4), 0 0 50px rgb(245, 73, 4), 0 0 100px rgb(245, 73, 4);
+}
